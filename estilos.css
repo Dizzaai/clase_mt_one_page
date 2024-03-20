@@ -1,0 +1,119 @@
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(tresde.jpg);
+    background-size: cover; 
+    background-attachment: local;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+section {
+    padding: 1.7%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+.content {
+    padding: 50px;
+    color: white; 
+    text-align: center;
+    } 
+p {
+    color: blue
+}
+img {
+    margin-right: 10%;
+    width: 20%;
+    margin-bottom: 50px;
+    
+}
+.lang{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    top: 100%
+}
+.llamada img{
+    height: 300px;
+    width: 300px;
+}
+.pablo{
+     top: 30%;
+     left: 30;
+}
+
+.propia{
+   position: relative;
+   bottom: 480px;
+   left: 25%;
+}
+.documento{
+    position: relative;
+    bottom: 750px;
+    left: 60%;  
+}
+.proyectos{
+    border: 10px solid gray;
+    width: 200px;
+}
+.por{
+    border: 10px solid gray;
+    width: 200px; 
+}
+.pesar{
+    border: 10px solid gray;
+    width: 200px;
+}
+.playa{
+    border: 10px solid gray;
+    width: 200px;
+}
+.puntos{
+    border: 10px solid gray;
+    width: 200px;  
+}
+.lapiceros{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.One{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: transparent; 
+}
+
+.ultimo{
+    position: relative;
+    bottom: 300px;
+    left: 40%;
+
+}
+.llamada2{
+    object-fit: cover;
+}
+.slimes video{
+    margin-top: -120px;
+    margin-bottom: 20px;
+}
+
+
